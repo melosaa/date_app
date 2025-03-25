@@ -1,21 +1,30 @@
-import 'package:date_app/routing/page_router.dart';
+import 'package:date_app/routes/app_routes.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'package:get_storage/get_storage.dart';
 
 class SplashController extends GetxController {
-  GetStorage storage = GetStorage();
   @override
   void onInit() {
     super.onInit();
-    configureNavigate();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      configureNavigate();
+    });
   }
 
-  Future configureNavigate() async {
-    PageRouter router = PageRouter(routes: routes);
+  Future<void> configureNavigate() async {
+    GetStorage storage = GetStorage();
+    await Future.delayed(const Duration(milliseconds: 1500));
+
     bool isLogged = storage.read('userModel') != null;
-    await Future.delayed(const Duration(milliseconds: 3000));
-    String route = isLogged ? '/home' : '/auth';
-    router.navigateToPage(Get.context!, route, params: null);
+
+    Future.microtask(() {
+      if (isLogged) {
+        Get.offAllNamed(AppRoutes.home);
+      } else {
+        Get.offAllNamed(AppRoutes.login);
+      }
+    });
   }
 }
