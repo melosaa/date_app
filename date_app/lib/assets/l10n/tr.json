@@ -1,3 +1,23 @@
-{"welcome": "Hoşgeldin!",
-"lets_get_started":"Hadi başlayalım.Kendinizi nasıl tanımlıyorsunuz?"
+{
+    "welcome": "Hoşgeldin!",
+    "lets_get_started": "Hadi başlayalım.Kendinizi nasıl tanımlıyorsunuz?",
+    "female": "Kadın",
+    "male": "Erkek",
+    "continue_with_apple": "Apple ile Devam et",
+    "continue_with_facebook": "Facebook ile Devam et",
+    "dont_have_account": "Hesabınız yok mu?",
+    "signup": "Üye Ol",
+    "already_have_account": "Hesabın yok mu?",
+    "sign_in_facebook": "Facebook ile Kaydol",
+    "sign_in_apple": "Apple ile Kaydol ",
+    "sign_in_email": "E-Posta ile Kaydol",
+    "register_or_email_or_phone": "E-posta ile veya Telefonla Kaydol",
+    "email_required": "E-mail gerekli",
+    "register_success": "Kayıt Başarılı!",
+    "sign_in_with_email": "E mail ile  giriş yap",
+    "cancel": "İptal Et",
+    "email": "E-posta",
+    "password": "Şifre",
+    "signin": "Oturum aç",
+    "forgot_password": "Şifremi Unuttum?"
 }

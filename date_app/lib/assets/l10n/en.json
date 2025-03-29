@@ -1,4 +1,23 @@
-{"welcome": "Welcome!",
-"lets_get_started":"Let's get started.How do you identify?"
-
+{
+    "welcome": "Welcome!",
+    "lets_get_started": "Let's get started.How do you identify?",
+    "female": "Female",
+    "male": "Male",
+    "continue_with_apple": "Continue With Apple",
+    "continue_with_facebook": "Continue With Facebook",
+    "dont_have_account": "Don't have an account?",
+    "signup": "Sign up",
+    "already_have_account": "Already Have Account?",
+    "sign_in_facebook": "Sign in with Facebook",
+    "sign_in_apple": "Sign in with Apple ",
+    "sign_in_email": "Sign in with E-mail",
+    "register_or_email_or_phone": "Register by email or phone",
+    "email_required": "E-mail required",
+    "register_success": "Registration Successful!",
+    "sign_in_with_email": "Sign in with email",
+    "cancel": "Cancel",
+    "email": "E-mail",
+    "password": "Password",
+    "signin": "Sign in",
+    "forgot_password": "Forgot Password?"
 }

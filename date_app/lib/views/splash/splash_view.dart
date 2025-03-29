@@ -4,7 +4,6 @@ import 'package:date_app/utilities/constants/image_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-
 class SplashView extends StatelessWidget {
   const SplashView({super.key});
 
@@ -12,7 +11,7 @@ class SplashView extends StatelessWidget {
   Widget build(BuildContext context) {
     Get.find<SplashController>(tag: "SplashController");
     return Container(
-      color: ColorConstants.splashColor,
+      color: ColorConstants.splash,
       child: Center(
         child: SizedBox(child: FittedBox(child: ImageConstants.logoImageAsset)),
       ),

@@ -38,6 +38,11 @@ flutter:
     - lib/assets/images/base/logo_icon.png
     - lib/assets/images/login/
     - lib/assets/images/login/login_background_image.png
+    - lib/assets/icons/
+    - lib/assets/icons/auth/
+    - lib/assets/icons/auth/apple_icon.png
+    - lib/assets/icons/auth/facebook_icon.png
+
 
     #fonts
 fonts:
